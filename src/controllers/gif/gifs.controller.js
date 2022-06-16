@@ -1,3 +1,5 @@
+const Gif = require("../../schemas/gifs");
+
 exports.createGif = async (req, res) => {
   const { gif } = req.body;
   try {
